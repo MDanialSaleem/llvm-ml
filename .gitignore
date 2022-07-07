@@ -1,0 +1,6 @@
+.*/
+dump/
+repos/
+build/
+*.gz
+.DS_Store
