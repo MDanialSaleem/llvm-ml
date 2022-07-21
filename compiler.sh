@@ -12,6 +12,7 @@ do
     else
         echo "compiling $dirname"
         mkdir -p $THIS_COMPILED_DIR
+        cargo clean
         cargo rustc --lib --release -- --emit=llvm-ir
         ret=$?
         if [ $ret -ne 0 ]; then
