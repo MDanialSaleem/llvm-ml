@@ -4,3 +4,4 @@ repos/
 build/
 *.gz
 .DS_Store
+compiled.txt
